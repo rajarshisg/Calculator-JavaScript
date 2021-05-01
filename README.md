@@ -7,4 +7,4 @@ This is a simple calculator built using HTML, CSS and JavaScript. There are four
 
 Screenshot of the calculator : 
 
-![alt text](https://raw.githubusercontent.com/rajarshisg/Calculator-JavaScript/master/Calculator%20JavaScript/Screenshots/Capture.PNG)
+![alt text](https://raw.githubusercontent.com/rajarshisg/Calculator-JavaScript/master/Calculator%20JavaScript/Screenshots/Capture.PNG) <img src="https://raw.githubusercontent.com/rajarshisg/Calculator-JavaScript/master/Calculator%20JavaScript/Screenshots/Capture.PNG" width="200px" height="300px">
