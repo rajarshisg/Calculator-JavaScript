@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--Begining of html-->
+<html>
+<!--Begnining of head-->
+
+<head>
+    <title>Calculator</title>
+    <!--Linking the css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="calculator_style.css">
+    <!--Adding font awesome-->
+    <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+</head>
+<!--End of head-->
+<!--Begining of body-->
+
+<body>
+    <!--Begning of calc_index div-->
+    <div id="calc_index">
+        <!--Begining of calc_output div-->
+        <div id="calc_output">
+            <div id='calc_text'></div>
+        </div>
+        <!--End of calc_output div-->
+        <!--Begining of calc_keypad div-->
+        <div id="calc_keypad">
+            <!--data_value attribute in buttons is a custom attribute which pases the value associated
+                with the corresponding button to JS-->
+            <!--Button 1-->
+            <div class="calc_button" class="noselect" style="background-color: rgb(235, 230, 230);" data_value="AC">
+                <span>AC</span>
+            </div>
+            <!--End of Button 1-->
+            <!--Button 2-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value="^">
+                <span>^</span>
+            </div>
+            <!--End of Button 2-->
+            <!--Button 3-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value="%">
+                <span><i class="fas fa-percentage"></i></span>
+            </div>
+            <!--End of Button 3-->
+            <!--Button 4-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value="/">
+                <span><i class="fas fa-divide"></i></span>
+            </div>
+            <!--End of Button 4-->
+            <!--Button 5-->
+            <div class="calc_button" data_value="7">
+                <span>7</span>
+            </div>
+            <!--End of Button 5-->
+            <!--Button 6-->
+            <div class="calc_button" data_value="8">
+                <span>8</span>
+            </div>
+            <!--End of Button 6-->
+            <!--Button 7-->
+            <div class="calc_button" data_value="9">
+                <span>9</span>
+            </div>
+            <!--End of Button 7-->
+            <!--Button 8-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value="*">
+                <span><i class="fas fa-times"></i></span>
+            </div>
+            <!--End of Button 8-->
+            <!--Button 9-->
+            <div class="calc_button" data_value="4">
+                <span>4</span>
+            </div>
+            <!--End of Button 9-->
+            <!--Button 10-->
+            <div class="calc_button" data_value="5">
+                <span>5</span>
+            </div>
+            <!--End of Button 10-->
+            <!--Button 11-->
+            <div class="calc_button" data_value="6">
+                <span>6</span>
+            </div>
+            <!--End of Button 11-->
+            <!--Button 12-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value="-">
+                <span><i class="fas fa-minus"></i></span>
+            </div>
+            <!--End of Button 12-->
+            <!--Button 13-->
+            <div class="calc_button" data_value="1">
+                <span>1</span>
+            </div>
+            <!--End of Button 13-->
+            <!--Button 14-->
+            <div class="calc_button" data_value="2">
+                <span>2</span>
+            </div>
+            <!--End of Button 14-->
+            <!--Button 15-->
+            <div class="calc_button" data_value="3">
+                <span>3</span>
+            </div>
+            <!--End of Button 15-->
+            <!--Button 16-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value="+">
+                <span><i class="fas fa-plus"></i></span>
+            </div>
+            <!--End of Button 16-->
+            <!--Button 17-->
+            <div class="calc_button" style="width: 200px; border-bottom-left-radius: 0.5rem;" data_value="0">
+                <span>0</span>
+            </div>
+            <!--End of Button 17-->
+            <!--Button 18-->
+            <div class="calc_button" style="background-color: rgb(235, 230, 230);" data_value=".">
+                <span>.</span>
+            </div>
+            <!--End of Button 18-->
+            <!--Button 19-->
+            <div class="calc_button" style="background: linear-gradient(45deg,#fc4a1a 35%,#f7b733 100%); color: rgb(235, 230, 230); border-bottom-right-radius: 0.5rem;" data_value="=">
+                <span><i class="fas fa-equals"></i></span>
+            </div>
+            <!--End of Button 19-->
+        </div>
+        <!--End of calc_keypad div-->
+    </div>
+    <!--End of calc_index div-->
+    <!--Adding JS file-->
+    <script type="text/javascript" src="calculator_script.js"></script>
+</body>
+<!--End of body-->
+
+</html>
+<!--End of html-->
